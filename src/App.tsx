@@ -1,6 +1,9 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import AboutProgram from './components/AboutProgram'
+import Perks  from './components/Perks'
+import Stats from './components/Stats'
+import Contributing from './components/Contributing'
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         </h1>
         <Hero />
         <AboutProgram />
+        <Perks />
+        <Contributing />
+        <Stats />
       </main>
 
       {/* Footer will go here */}
