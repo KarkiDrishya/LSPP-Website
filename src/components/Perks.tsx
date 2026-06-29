@@ -20,7 +20,7 @@ const Perks = () => {
             points: [
                 "Mentorship from industry experts",
                 "Empower your peers by facilitating knowledfge sharing sessions"],
-            icon: "becomeALeaderIcon"
+            icon: becomeALeaderIcon
         },
         {
             id: 2,
@@ -29,7 +29,7 @@ const Perks = () => {
                 "Professional growth and exposure",
                 "Opportunity to network with Leapfroggers"
             ],
-            icon: "takeAStepIcon"
+            icon: takeAStepIcon
         },
         {
             id: 3,
@@ -38,7 +38,7 @@ const Perks = () => {
                 "Access to curated trainings, courses and resources",
                 "Customized goodies, recommendation letters and certificates"
             ],
-            icon: "exquisiteRewardsIcon"
+            icon: exquisiteRewardsIcon
         },
         {
             id: 4,
@@ -47,7 +47,7 @@ const Perks = () => {
                 "Guidance and support for your projects",
                 "Development of essential soft skills"
             ],
-            icon: "personalGrowthIcon"
+            icon: personalGrowthIcon
         }
     ];
     return (

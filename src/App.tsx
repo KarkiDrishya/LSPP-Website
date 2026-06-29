@@ -4,6 +4,7 @@ import AboutProgram from './components/AboutProgram'
 import Perks  from './components/Perks'
 import Stats from './components/Stats'
 import Contributing from './components/Contributing'
+import StudentPartners from './components/StudentPartners'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Perks />
         <Contributing />
         <Stats />
+        <StudentPartners />
       </main>
 
       {/* Footer will go here */}
