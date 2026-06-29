@@ -1,0 +1,11 @@
+@theme {
+  --color-brand-green: #22c55e;
+  --font-Learn:"Learn",sans-serif;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("./assets/fonts/Learn.otf") format("truetype");
+}
+
+@import "tailwindcss";
