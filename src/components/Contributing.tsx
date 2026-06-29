@@ -5,7 +5,6 @@ interface ContributionCard {
 }
 
 const Contributing = () => {
-  // Data matching the content from image_9f8540.png
   const contributionData: ContributionCard[] = [
     {
       id: 1,
@@ -36,7 +35,7 @@ const Contributing = () => {
           How will you be contributing?
         </h2>
 
-        {/* Two-Column Responsive Layout Grid */}
+        {/* Two-Column Grid*/}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {contributionData.map((card) => (
             <div 
@@ -55,7 +54,6 @@ const Contributing = () => {
               <ul className="space-y-4 flex-1">
                 {card.points.map((point, index) => (
                   <li key={index} className="flex items-start text-sm sm:text-base text-gray-700 font-medium leading-relaxed">
-                    {/* Small layout accent dot matching Leapfrog's bullet styling */}
                     <span className="text-[#0B4E68] mr-3 mt-1.5 flex-shrink-0 text-xs">●</span>
                     <span>{point}</span>
                   </li>

@@ -62,14 +62,12 @@ const Perks = () => {
               key={perk.id} 
               className="bg-[#FFF4F0] rounded-[32px] p-8 sm:p-10 flex flex-col items-start space-y-6"
             >
-                {/* Circular Icon Container rendering your exact SVGs */}
+                {/* Circular Icon Container*/}
               <div className="w-16 h-16 rounded-full bg-[#E04F2A] flex items-center justify-center shadow-sm p-4">
                 <img 
                   src={perk.icon} 
                   alt="" 
                   className="w-full h-full object-contain invert brightness-0" 
-                  // Note: 'invert brightness-0' will turn your colored SVGs completely pure white 
-                  // to look clean inside the solid orange circular background!
                 />
             </div>
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900 leading-tight">

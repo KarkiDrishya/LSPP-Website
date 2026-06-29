@@ -64,9 +64,7 @@ const Stats = () => {
   return (
     <div className="w-full bg-white flex flex-col space-y-16">
       
-      {/* ========================================================= */}
-      {/* SECTION A: METRICS COUNTERS BANNER                        */}
-      {/* ========================================================= */}
+      {/*Metrics counter */}
       <section className="px-4 sm:px-6 lg:px-8 pt-12">
         <div className="max-w-7xl mx-auto bg-[#042834] rounded-[40px] py-12 px-6 sm:px-12">
           
@@ -93,9 +91,7 @@ const Stats = () => {
         </div>
       </section>
 
-      {/* ========================================================= */}
-      {/* SECTION B: PIXEL-PERFECT HIGHLIGHTS MASONRY GALLERY        */}
-      {/* ========================================================= */}
+      {/*Pixel perfect highlights */}
       <section className="px-4 sm:px-6 lg:px-8 pb-16">
         <div className="max-w-7xl mx-auto">
           

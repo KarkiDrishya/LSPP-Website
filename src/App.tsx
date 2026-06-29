@@ -5,6 +5,7 @@ import Perks  from './components/Perks'
 import Stats from './components/Stats'
 import Contributing from './components/Contributing'
 import StudentPartners from './components/StudentPartners'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -26,8 +27,7 @@ function App() {
         <Stats />
         <StudentPartners />
       </main>
-
-      {/* Footer will go here */}
+      <Footer />
     </div>
   )
 }
